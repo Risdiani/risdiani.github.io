@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&family=Poppins:wght@600&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 .jumbotron {
   padding-top: 6rem;
   background-color: #ffebcd;
@@ -9,4 +15,35 @@
 
 section {
   padding-top: 5rem;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.contact {
+  padding: 10px;
+  text-decoration: none;
+  color: #301e67;
+}
+
+.love {
+  margin-left: 20px;
+  width: 15px;
+  animation: zoom 3s linear infinite;
+}
+
+@keyframes zoom {
+  0% {
+    transform: translate(-15px);
+  }
+  50% {
+    transform: translate(0px);
+  }
+  100% {
+    transform: translate(-15px);
+  }
 }
